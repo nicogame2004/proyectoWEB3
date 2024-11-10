@@ -1,0 +1,146 @@
+/* VerifyToken.css */
+
+/* Estilos para el contenedor principal */
+.verify-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #87CEEB; /* Mismo fondo que la barra de navegación */
+    min-height: 100vh;
+    padding-top: 0px; /* Para compensar la barra de navegación fija */
+  }
+  
+  /* Estilos para el contenido central */
+  .verify-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%; /* Asegura que se vea bien en pantallas pequeñas */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Título */
+  .verify-content h2 {
+    margin-bottom: 20px;
+    color: #0056b3;
+  }
+  
+  /* Estilos para el formulario */
+  .verify-form input {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px; /* Separación de 50px entre los botones */
+  }
+  
+  .form-buttons button {
+    width: 200px; /* Mismo ancho para ambos botones */
+    padding: 10px 0; /* Asegura que tengan la misma altura */
+    font-size: 16px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-buttons button:hover {
+    background-color: #003366;
+    transform: translateY(-2px); /* Eleva ligeramente el botón */
+  }
+  
+  /* Mensaje de verificación */
+  .verify-message {
+    margin-top: 20px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #87CEEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-title {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los botones en la cabecera */
+  .header-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-icon-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  
+  .admin-button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-button:hover {
+    background-color: #003366;
+  }
+  
+  .login-button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #003366;
+  }
+  
